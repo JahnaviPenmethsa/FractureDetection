@@ -77,3 +77,12 @@ python gui.py
 * Scikit-Learn - Evaluation Metrics
 
 * Tkinter - Graphical User Interface
+
+## Model Performance
+Our ResNet50 Transfer Learning model achieved **98.36% Accuracy** on the testing set after 20 epochs.
+
+### Training Accuracy
+![Accuracy Graph](results/accuracy_graph.png)
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
