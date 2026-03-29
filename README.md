@@ -16,7 +16,7 @@ This project leverages **Transfer Learning** using the **ResNet50** architecture
 TraumaDetection/
 │
 ├── data/
-│   ├── raw/                # Place your 'fracture' and 'nofracture' folders here
+│   ├── raw/                # contains 'fracture' and 'nofracture' folders 
 │   └── processed/          # Caches .npy arrays for faster loading
 │
 ├── models/
@@ -32,48 +32,48 @@ TraumaDetection/
 ├── gui.py                  # The main Tkinter application
 ├── requirements.txt        # Project dependencies
 └── README.md
-
+```
 
 ## Setup & Installation
 
 1. Clone the repository
-
 ```bash
 git clone [https://github.com/JahnaviPenmethsa/FractureDetection.git](https://github.com/JahnaviPenmethsa/FractureDetection.git)
 cd TraumaDetection
+```
 
 2. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
+```
+
 
 3. Add Data
-
 Create the data/raw/ directory and place your two folders (fracture and nofracture) containing the dataset images inside.
 
 4. Run the Application
-
 ```bash
 python gui.py
+```
 
 ## How to Use
 
-Launch the application using python gui.py.
+* Launch the application using python gui.py.
 
-Click Process Dataset to prepare the images.
+* Click Process Dataset to prepare the images.
 
-Click Train ResNet50 Model to begin training (progress will display in your terminal).
+* Click Train ResNet50 Model to begin training (progress will display in your terminal).
 
-Once complete, click Show Training Graphs to view model performance.
+* Once complete, click Show Training Graphs to view model performance.
 
-Use Predict Single Image to test the model on a new X-ray.
+* Use Predict Single Image to test the model on a new X-ray.
 
 ## Built With
 
-TensorFlow/Keras - Deep Learning Framework
+* TensorFlow/Keras - Deep Learning Framework
 
-OpenCV - Image Processing
+* OpenCV - Image Processing
 
-Scikit-Learn - Evaluation Metrics
+* Scikit-Learn - Evaluation Metrics
 
-Tkinter - Graphical User Interface
+* Tkinter - Graphical User Interface
