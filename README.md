@@ -79,10 +79,11 @@ python gui.py
 * Tkinter - Graphical User Interface
 
 ## Model Performance
-Our ResNet50 Transfer Learning model achieved **98.36% Accuracy** on the testing set after 20 epochs.
+This ResNet50 Transfer Learning model achieved outstanding results on the testing set after 20 epochs.
 
-### Training Accuracy
-![Accuracy Graph](results/accuracy_graph.png)
+* **Accuracy:** 98.36%
+* **Precision:** 98.53%
+* **Recall:** 98.21%
+* **F1-Score:** 98.34%
 
-### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+These metrics indicate that the model is highly capable of distinguishing between fractured and healthy maxillofacial X-rays with minimal false positives or missed diagnoses.
